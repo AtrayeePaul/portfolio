@@ -942,7 +942,7 @@ span {
     }
     .home-img img{
         width: 70vw;
-        margin-top: 4rem;
+        margin-bottom: 7rem;
     }
     .about{
         flex-direction: column-reverse;
@@ -953,6 +953,17 @@ span {
     }
     .services h2{
         margin-bottom: 3rem;
+    }
+    .skill-bar{
+        width: 100%;
+
+    }
+    .soft-skills{
+        width: 100%;
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
     }
 
     .projects{
