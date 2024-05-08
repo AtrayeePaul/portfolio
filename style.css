@@ -938,6 +938,9 @@ span {
     .home{
         flex-direction: column;
     }
+    .home-content{
+        margin-left: 2rem;
+    }
     .home-content h4{
         font-size: 2.6rem;
     }
@@ -995,41 +998,41 @@ span {
     }
     .skill-bar .bar .html{
         width: 75%;
-        margin-left: 30px ;
+        margin-left: 25px ;
         animation: html 2s;
     }
     .skill-bar .bar .css{
-        margin-left: 30px;
+        margin-left: 25px;
         width: 75%;
         animation: css 3s;
     }
     .skill-bar .bar .js{
-        margin-left: 30px;
+        margin-left: 25px;
         width: 60%;
         animation: js 4s;
     }
     .skill-bar .bar .php{
-        margin-left: 30px;
+        margin-left: 25px;
         width: 60%;
         animation: php 5s;
     }
     .skill-bar .bar .mysql{
-        margin-left: 30px;
+        margin-left: 25px;
         width: 75%;
         animation: mysql 6s;
     }
     .skill-bar .bar .python{
-        margin-left: 30px;
+        margin-left: 25px;
         width: 55%;
         animation: python 7s;
     }
     .skill-bar .bar .git{
-        margin-left: 30px;
+        margin-left: 25px;
         width: 55%;
         animation: git 8s;
     }
     .skill-bar .bar .wordpress{
-        margin-left: 30px;
+        margin-left: 25px;
         width: 60%;
         animation: wordpress 9s;
     }
