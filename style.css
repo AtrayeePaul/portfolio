@@ -906,6 +906,10 @@ span {
     }
 }
 @media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+
+    }
     #menu-icon{
         display: block;
     }
@@ -951,11 +955,89 @@ span {
         width: 70vw;
         margin-top: 4rem;
     }
-    .services h2{
-        margin-bottom: 3rem;
+    .education .item{
+        flex-direction: column;
+
     }
-    .skill-bar{
-        width: 100%;
+    .education .item .timeline-content{
+        width: 90%;
+        padding: 1rem;
+        text-align:left;
+
+        
+    }
+    .main-text h2{
+        font-size: 5rem;
+        text-align: center;
+        margin-bottom: 5rem;
+        margin-right: 3rem;
+        
+    }
+    .skills-main{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-left: 1rem;
+
+    }
+    .skills-left{
+        width: 90%;
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+
+        
+    }
+  
+
+    .skills .bar span{
+        display: relative;
+        right: 1000px;
+        
+    }
+    .skill-bar .bar .html{
+        width: 75%;
+        margin-left: 30px ;
+        animation: html 2s;
+    }
+    .skill-bar .bar .css{
+        margin-left: 30px;
+        width: 75%;
+        animation: css 3s;
+    }
+    .skill-bar .bar .js{
+        margin-left: 30px;
+        width: 60%;
+        animation: js 4s;
+    }
+    .skill-bar .bar .php{
+        margin-left: 30px;
+        width: 60%;
+        animation: php 5s;
+    }
+    .skill-bar .bar .mysql{
+        margin-left: 30px;
+        width: 75%;
+        animation: mysql 6s;
+    }
+    .skill-bar .bar .python{
+        margin-left: 30px;
+        width: 55%;
+        animation: python 7s;
+    }
+    .skill-bar .bar .git{
+        margin-left: 30px;
+        width: 55%;
+        animation: git 8s;
+    }
+    .skill-bar .bar .wordpress{
+        margin-left: 30px;
+        width: 60%;
+        animation: wordpress 9s;
+    }
+
+
+    .skills-right{
+      padding-bottom: 7rem;
+      min-height: auto;
 
     }
     .soft-skills{
@@ -965,12 +1047,17 @@ span {
         grid-template-columns: 1fr 1fr;
 
     }
+    .services h2{
+        margin-bottom: 5rem;
+        margin-right: 4rem;
+    }
 
     .projects{
         padding-bottom: 7rem;
     }
     .projects h2{
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
+        margin-right: 4rem;
     }
     .project-container{
         grid-template-columns: repeat(2, 1fr);
