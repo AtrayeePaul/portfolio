@@ -243,17 +243,10 @@ span {
     40% {
         content: "Web Designer";
     }
-    41%,
-    60% {
-        content: "Backend Developer";
-    }
+    
     61%,
     80% {
         content: "Full Stack Developer";
-    }
-    81%,
-    100% {
-        content: "UI/UX Designer";
     }
 }
 
