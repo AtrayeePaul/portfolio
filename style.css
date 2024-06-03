@@ -808,7 +808,6 @@ span {
 }
 .contact p{
     background: var(--second-bg-color);
-    min-height: 100vh;
 }
 .contact form{
     max-width: 700px;
