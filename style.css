@@ -1069,6 +1069,10 @@ span {
     .contact form .input-box input{
         width: 100%;
     }
+    .contact p{
+        width: 100%;
+        margin-left: 10%;
+    }
 
     .footer{
         flex-direction: column-reverse;
